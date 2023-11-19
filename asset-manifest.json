@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b0f4ae95.css",
+    "main.js": "/portfolio/static/js/main.c7d86e23.js",
+    "static/media/about.png": "/portfolio/static/media/about.61d40df6223e503d4c1e.png",
+    "static/media/portfolio-img1.png": "/portfolio/static/media/portfolio-img1.5188ef4a0fb85225a7a0.png",
+    "static/media/Tsholofelo Seemeko software developer Cv.pdf": "/portfolio/static/media/Tsholofelo Seemeko software developer Cv.8ff9b39f6f173dd88df4.pdf",
+    "static/media/site-bg.jpg": "/portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/portfolio-img3.png": "/portfolio/static/media/portfolio-img3.439553ca64a0623a9a41.png",
+    "static/media/services.png": "/portfolio/static/media/services.8e66d4fbbd95de45b8db.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.b5933207321708998a8e.png",
+    "static/media/portfolio-img2.png": "/portfolio/static/media/portfolio-img2.b97636b22f14b41d84ca.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.cc0bdd87c923f8825857.png",
+    "index.html": "/portfolio/index.html",
+    "main.b0f4ae95.css.map": "/portfolio/static/css/main.b0f4ae95.css.map",
+    "main.c7d86e23.js.map": "/portfolio/static/js/main.c7d86e23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0f4ae95.css",
+    "static/js/main.c7d86e23.js"
+  ]
+}
