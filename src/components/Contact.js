@@ -33,29 +33,48 @@ const Contact = () => {
           </motion.div>
           {/* form */}
           <motion.form
-          variants={fadeIn('left',0.5)}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{once:false, amount:0.3}} 
-          className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
-            
-            <input 
-            className='bg-transparent border-b py-3 outline-none w-full
-            placeholder:text-white focus:border-accent transition-all' 
-            type="text" 
-            placeholder='Your name'/>
-            <input 
-            className='bg-transparent border-b py-3 outline-none w-full
-            placeholder:text-white focus:border-accent transition-all' 
-            type="text" 
-            placeholder='Your email'/>
-            <textarea 
-            className='bg-transparent border-b py-3 outline-none w-full
-            placeholder:text-white focus:border-accent transition-all resize-none mb-12'
-            placeholder='Your message'
-            rows='3'></textarea>
-            <button className='btn btn-lg'>Send Message</button>
-          </motion.form>
+  action="https://formsubmit.co/ba6c98c734014fe1d703d4e7fc1a3e77"
+  method="POST"
+  variants={fadeIn('left', 0.5)}
+  initial="hidden"
+  whileInView={'show'}
+  viewport={{ once: false, amount: 0.3 }}
+  className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'
+>
+  {/* Anti-spam field (hidden) */}
+  
+  <input
+  type="hidden"
+  name="_captcha"
+  value={
+    window.location.hostname === "localhost"
+      ? "http://localhost:3000/"
+      : "https://tseemeko.github.io/portfolio/thankyou.html"
+  }
+/>
+  <input 
+    className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
+    type="text" 
+    name="name"
+    placeholder='Your name' 
+    required 
+  />
+  <input 
+    className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
+    type="email" 
+    name="email"
+    placeholder='Your email' 
+    required 
+  />
+  <textarea 
+    className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
+    name="message"
+    placeholder='Your message'
+    rows='3'
+    required
+  ></textarea>
+  <button className='btn btn-lg'>Send Message</button>
+</motion.form>
         </div>
       </div>
     </section>
