@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8a864bf0.css",
-    "main.js": "/portfolio/static/js/main.9b08d911.js",
+    "main.js": "/portfolio/static/js/main.e09cf5f2.js",
     "static/media/about.png": "/portfolio/static/media/about.61d40df6223e503d4c1e.png",
     "static/media/portfolio-img1.png": "/portfolio/static/media/portfolio-img1.5188ef4a0fb85225a7a0.png",
     "static/media/Tsholofelo Seemeko software developer Cv.pdf": "/portfolio/static/media/Tsholofelo Seemeko software developer Cv.8ff9b39f6f173dd88df4.pdf",
@@ -16,10 +16,10 @@
     "static/media/logo.png": "/portfolio/static/media/logo.cc0bdd87c923f8825857.png",
     "index.html": "/portfolio/index.html",
     "main.8a864bf0.css.map": "/portfolio/static/css/main.8a864bf0.css.map",
-    "main.9b08d911.js.map": "/portfolio/static/js/main.9b08d911.js.map"
+    "main.e09cf5f2.js.map": "/portfolio/static/js/main.e09cf5f2.js.map"
   },
   "entrypoints": [
     "static/css/main.8a864bf0.css",
-    "static/js/main.9b08d911.js"
+    "static/js/main.e09cf5f2.js"
   ]
 }
